@@ -1,6 +1,6 @@
 {
   "name": "bytechunker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chunk a Stream in smaller pieces of the same dimension",
   "main": "index.js",
   "scripts": {
@@ -21,10 +21,8 @@
   },
   "author": "Matteo Collina <hello@matteocollina.com>",
   "license": "MIT",
-  "dependencies": {
-    "tap": "~0.4.4"
-  },
   "devDependencies": {
-    "bl": "~0.4.1"
+    "bl": "~0.4.1",
+    "tap": "~0.4.4"
   }
 }

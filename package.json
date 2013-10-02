@@ -1,0 +1,30 @@
+{
+  "name": "bytechunker",
+  "version": "1.0.0",
+  "description": "Chunk a Stream in smaller pieces of the same dimension",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --tap test.js"
+  },
+  "keywords": [
+    "stream",
+    "chunk",
+    "throttle"
+  ],
+  "website": "https://github.com/mcollina/bytechunker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcollina/bytechunker.git"
+  },
+  "bugs": {
+    "url": "http://github.com/mcollina/bytechunker/issues"
+  },
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tap": "~0.4.4"
+  },
+  "devDependencies": {
+    "bl": "~0.4.1"
+  }
+}
